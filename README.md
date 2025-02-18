@@ -1,15 +1,4 @@
-# Fundust image classification &nbsp; 
 
-```python
-conda create -n fundus python=3.11.7
-conda activate fundus
-pip install -r requirements.txt
-```
-
-### train 
-```python
-
-```
 
 
 # Fundust image classification
