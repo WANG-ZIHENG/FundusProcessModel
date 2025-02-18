@@ -23,6 +23,16 @@ mv data/* /src/fairvlmed10k
 
 ```
 
+The Harvard-FairSeg dataset can be accessed via this [link](https://github.com/Harvard-Ophthalmology-AI-Lab/FairSeg?tab=readme-ov-file), and the Harvard-FairVLMed dataset can be accessed via this [link](https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP).
+
+```
+data
+ ├── FairSeg_data_summary.csv
+ └── FairVLMed_data_summary.csv
+```
+
+We provide the files `FairSeg_data_summary.csv` and `FairVLMed_data_summary.csv`, which contain the filenames used in our experiments, along with information on whether each file is used for the training, validation, or test set. In addition to the demographic information and medical records provided by the source data, we categorize ages under 65 as "young" and ages 65 and above as "elderly".
+
 ## 🚀 Train
 
 ```python
